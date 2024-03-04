@@ -4,7 +4,7 @@ from single import *
 
 HEADERS = ({'User-Agent':'', 'Accept-Language': 'en-US, en;q=0.5'})
 
-URL = "https://www.amazon.com/s?k=playstation+5+controller&crid=O6SMRR3W2D6B&sprefix=playstar%2Caps%2C137&ref=nb_sb_ss_ts-doa-p_3_8"
+URL = "https://www.amazon.com/s?k=blow+dryer&crid=211AEJNCXPB12&sprefix=blow+dryer%2Caps%2C127&ref=nb_sb_noss_1"
 
 site = requests.get(URL, headers=HEADERS)
 
